@@ -1,0 +1,31 @@
+{
+  "name": "express-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "gitignore": "^0.6.0",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "$(npm bin)/nodemon index.js --watch public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/najamkhn/express-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/najamkhn/express-setup/issues"
+  },
+  "homepage": "https://github.com/najamkhn/express-setup#readme"
+}
